@@ -1,0 +1,38 @@
+{
+  "workbench.colorTheme": "Dainty – Cobalt2",
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "smooth",
+  "window.nativeTabs": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "editor.fontSize": 11,
+  "editor.autoClosingBrackets": "always",
+  "editor.fontWeight": "400",
+  "editor.formatOnPaste": true,
+  "editor.suggest.hideStatusBar": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideStatusBar": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    // "editor.defaultFormatter": "HookyQR.beautify", 
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ]
+}
