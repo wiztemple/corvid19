@@ -122,15 +122,12 @@ body {
 .covid19-clip-image {
   position: absolute;
   right: 0;
-  clip-path: polygon(7% 7%, 100% 0%, 100% 100%, 0% 100%);
-  border-radius: 10px;
+  top: 20px;
 }
 .covid19-clip-image2 {
   position: absolute;
   right: 20%;
-  top: 200px;
-  clip-path: polygon(0 0, 100% 0%, 93% 89%, 0% 100%);
-  border-radius: 10px;
+  top: 220px;
   z-index: 2;
 }
 .covid19-inner-image > img {
@@ -138,12 +135,14 @@ body {
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
+  clip-path: polygon(7% 7%, 100% 0%, 100% 100%, 0% 100%);
 }
 .covid19-inner-image2 > img {
   width: 370px;
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
+  clip-path: polygon(7% 7%, 100% 0%, 100% 100%, 0% 100%);
 }
 .covid19-circle {
   position: absolute;
@@ -633,6 +632,10 @@ body.bg {
   display: flex;
   justify-content: flex-start;
 }
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
 .align-center {
   display: flex;
   align-items: center;
@@ -640,6 +643,9 @@ body.bg {
 .space-between {
   display: flex;
   justify-content: space-between;
+}
+.pb-20 {
+  padding-bottom: 20px;
 }
 .pt-10 {
   padding-top: 10px;
@@ -691,6 +697,9 @@ body.bg {
 }
 .positive-color {
   color: #07aa8d;
+}
+.color-white {
+  color: #fff;
 }
 /*sections and card data*/
 .realtime-data-section {
@@ -854,6 +863,13 @@ body.bg {
   font-size: 94px;
   font-weight: 600;
 }
+.symptoms > p {
+  color: rgb(107, 105, 105);
+  line-height: 2;
+}
+.symptoms > h1 {
+  color: #111;
+}
 .symptoms-section {
   position: relative;
 }
@@ -910,7 +926,7 @@ body.bg {
   z-index: 5;
 }
 .contagion-image-section > img {
-  width: 600px;
+  width: 500px;
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
@@ -934,4 +950,73 @@ body.bg {
   position: absolute;
   left: -30px;
   top: 70px;
+}
+.prevention-image-section {
+  position: relative;
+}
+.prevention-image-clips {
+  position: relative;
+}
+.prevention-inner-image {
+  margin-top: 20px;
+}
+.prevention-inner-image > img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
+  border-radius: 10px;
+}
+.prevention-inner-image2 {
+  /* position: absolute;
+  right: 0;
+  bottom: -700px; */
+  margin-left: 200px;
+}
+.prevention-inner-image2 > img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
+  border-radius: 10px;
+}
+.prevention-aesthetics-blue-circle {
+  position: absolute;
+  top: -40px;
+  margin-left: 160px;
+}
+.prevention-aesthetics-green-circle {
+  position: absolute;
+  right: 230px;
+  top: 280px;
+}
+.prevention-aesthetics-red-dots {
+  position: absolute;
+  right: 20px;
+  bottom: 90px;
+}
+
+/* infocard */
+.info-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+}
+.info-card-image {
+  padding: 10px 10px 0 10px;
+}
+.info-card-image > img {
+  width: 226px;
+  height: 198px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  object-fit: cover;
+}
+.info-card-message {
+  padding: 20px;
+}
+
+/*footer-section*/
+.footer-section {
+  background: #1e62e7;
 }
