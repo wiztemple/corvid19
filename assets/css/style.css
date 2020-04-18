@@ -189,7 +189,8 @@ body {
   height: 78px;
   background-image: linear-gradient(180deg, #fff, #f1f2f3);
   /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); */
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12); */
+  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
   position: relative;
   z-index: 100;
 }
@@ -416,6 +417,7 @@ body.bg {
 }
 .section {
   padding: 40px 0;
+  border-bottom: 1px solid #eeeeee;
 }
 .container {
   width: 100%;
@@ -593,12 +595,19 @@ body.bg {
   color: #1e62e7;
   border: 1px solid#1E62E7;
 }
+.button-blue {
+  background-color: #1e62e7;
+  color: #fff;
+}
 .button-outline:hover {
   background: rgba(30, 98, 231, 0.07);
   border-color: transparent;
   transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
-
+.button-blue:hover {
+  background-color: #1c52be;
+  color: #fff;
+}
 /*shapes*/
 .covid-angle {
   top: 120px;
@@ -620,6 +629,10 @@ body.bg {
   display: flex;
   justify-content: center;
 }
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
 .align-center {
   display: flex;
   align-items: center;
@@ -640,11 +653,38 @@ body.bg {
 .px-20 {
   padding: 0 20px;
 }
+.pd-0 {
+  padding: 0 !important;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
 .mt-50 {
   margin-top: 50px;
 }
 .mt-60 {
   margin-top: 60px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.ml-50 {
+  margin-left: 50px;
+}
+.ml-70 {
+  margin-left: 70px;
+}
+.ml-90 {
+  margin-left: 90px;
+}
+.ml-100 {
+  margin-left: 100px;
 }
 .negative-color {
   color: #c65e64;
@@ -654,8 +694,7 @@ body.bg {
 }
 /*sections and card data*/
 .realtime-data-section {
-  width: 100vw;
-  height: 100vh;
+  position: relative;
 }
 .realtime-data-section-title {
   font-size: 36px;
@@ -686,30 +725,42 @@ body.bg {
 .realtime-data-card-count-diff {
   font-size: 13px;
 }
-.covid19-search-card {
+.corvid19-search-card {
   background: #f1f2f3;
   box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
+  padding: 20px 0 0 0;
 }
 .input-field {
   display: block;
   max-width: 100%;
   width: 100%;
-  padding: 0.625rem 0.75rem;
+  padding: 0.625rem 0.75rem 0.625rem 1.8rem;
   font-size: 1rem;
   line-height: 1.6;
   color: #222;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
   border-radius: 10px;
-
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  /* border: 1px solid rgba(0, 0, 0, 0.08); */
+  border: none;
+}
+.input-field:focus {
+  outline: none;
+  background-color: #fff;
 }
 .search-field {
+  position: relative;
   background: #f1f2f3;
-  margin: 20px;
+  margin: 20px 20px 10px 20px;
+  padding: 5px;
   box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
+}
+.search-icon {
+  position: absolute;
+  top: 30%;
+  left: 10px;
 }
 .corvid19-search-result {
   padding: 0 0;
@@ -741,4 +792,146 @@ body.bg {
 }
 .corvid19-search-result-item:hover {
   background: rgba(113, 154, 236, 0.19);
+}
+.google-map {
+  border-radius: 10px;
+  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+}
+.country-map {
+  width: 100%;
+}
+.country-map > img {
+  width: 100%;
+  height: 570px;
+  object-fit: cover;
+}
+.corvid19-country-detail-header {
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+.corvid19-country-detail-header > span {
+  font-size: 72px;
+}
+.corvid19-country-name {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.corvid19-country-name > span {
+  display: block;
+  text-align: center;
+}
+.corvid19-country-name > span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+}
+.corvid19-country-name > span:nth-child(2) {
+  font-size: 14px;
+  color: #c4c4c4;
+}
+.corvid19-country-detail {
+  position: relative;
+}
+.corvid19-country-stats {
+  padding: 0 20px;
+}
+.corvid19-country-stats > .space-between > div > span {
+  display: block;
+  text-align: center;
+}
+.corvid19-country-stats-numbers > span {
+  display: block;
+}
+.corvid19-country-stats-numbers > span:nth-child(1) {
+  font-size: 24px;
+  line-height: 33px;
+  color: #c70c0c;
+  font-weight: 600;
+}
+
+/* symptoms  section */
+.bold-text {
+  font-size: 94px;
+  font-weight: 600;
+}
+.symptoms-section {
+  position: relative;
+}
+.symptoms-angle-decorator {
+  position: absolute;
+  left: 0;
+  top: 70px;
+}
+.box-shadowed-circle {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+}
+.illustration-wrapper .illustration-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.illustration-icon > img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.illustration-wrapper > span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.symptom-image-section {
+  position: relative;
+}
+.symptom-clip {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
+}
+.symptom-clip-image > img {
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* contagion section */
+.contagion-image-section {
+  position: relative;
+  z-index: 5;
+}
+.contagion-image-section > img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 2;
+}
+.contagion-aesthetics-dots {
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  z-index: 1;
+}
+.contagion-aesthetics-red-circle {
+  position: absolute;
+  right: 25px;
+  bottom: -30px;
+}
+.contagion-aesthetics-red-circle > img {
+  z-index: 1;
+}
+.contagion-aesthetics-blue-circle {
+  position: absolute;
+  left: -30px;
+  top: 70px;
 }
