@@ -126,6 +126,11 @@ body {
 .banner-right {
   position: relative;
 }
+.sample-corona-virus-icon {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
 .covid19-title {
   font-size: 72px;
 }
@@ -1035,7 +1040,12 @@ body.bg {
 .symptom-image-section {
   position: relative;
 }
-.symptom-clip {
+.symptoms-svg {
+  position: absolute;
+  right: 0;
+  top: 120px;
+}
+/* .symptom-clip {
   position: absolute;
   right: 0;
   top: 100px;
@@ -1046,7 +1056,7 @@ body.bg {
   object-fit: cover;
   border-radius: 10px;
   clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
-}
+} */
 
 /* contagion section */
 .contagion-section {
@@ -1060,10 +1070,7 @@ body.bg {
   z-index: 5;
 }
 .contagion-image-section > img {
-  width: 500px;
-  height: 500px;
   object-fit: cover;
-  border-radius: 10px;
   z-index: 2;
 }
 .contagion-desc-section > p {
@@ -1106,22 +1113,25 @@ body.bg {
   position: relative;
 }
 .prevention-inner-image {
-  margin-top: 20px;
+  position: absolute;
+  margin-top: 150px;
+  right: 0;
+  z-index: 6;
 }
-.prevention-inner-image > img {
+/* .prevention-inner-image > img {
   width: 400px;
   height: 350px;
   object-fit: cover;
   clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
   border-radius: 10px;
-}
+} */
 .prevention-inner-image2 {
   /* position: absolute;
   right: 0;
   bottom: -700px; */
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
-.prevention-inner-image2 > img {
+/* .prevention-inner-image2 > img {
   width: 400px;
   height: 350px;
   position: relative;
@@ -1129,7 +1139,7 @@ body.bg {
   clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
   border-radius: 10px;
   z-index: 2;
-}
+} */
 .prevention-aesthetics-blue-circle {
   position: absolute;
   top: -40px;
@@ -1140,11 +1150,13 @@ body.bg {
   position: absolute;
   right: 230px;
   top: 280px;
+  z-index: 1;
 }
 .prevention-aesthetics-red-dots {
   position: absolute;
-  right: 20px;
-  bottom: 90px;
+  right: 15px;
+  bottom: -530px;
+  z-index: 1;
 }
 
 /* infocard */
