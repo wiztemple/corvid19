@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 
-html {
+html,
+body {
   box-sizing: border-box;
   background-color: #f5f5f5;
-  /* background-image: linear-gradient(180deg, #fff, #f5f5fa); */
   font-size: 16px;
   min-width: 300px;
   overflow-x: hidden;
@@ -190,25 +190,17 @@ body {
   margin-top: 320px;
   z-index: 1;
 }
-/* .covid19-clip-image > img {
-  width: 384px;
-  height: 347px;
-  object-fit: contain;
-} */
 .covid19-text {
   padding-top: 20px;
   color: #444;
 }
 .app {
-  /* background: url('../icons/compass.svg') top right no-repeat, url('../icons/circles.svg') no-repeat; */
   background: url("../icons/map2.svg") top no-repeat;
   background-size: 600px;
 }
 .navbar {
   height: 78px;
   background-image: linear-gradient(180deg, #fff, #f1f2f3);
-  /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); */
-  /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12); */
   box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
   position: relative;
   z-index: 100;
@@ -221,7 +213,6 @@ body {
   color: #4a4a4a;
   cursor: pointer;
   display: block;
-  height: 3.25rem;
   position: relative;
   width: 3.25rem;
   margin-left: auto;
@@ -318,6 +309,7 @@ body {
 @media (max-width: 768px) {
   .navbar {
     width: 100%;
+    height: 4.1rem;
   }
   .navbar > .container {
     display: block;
@@ -330,18 +322,24 @@ body {
     align-items: center;
     display: flex;
   }
+  .navbar-item {
+    min-height: 3.5rem;
+  }
   .nav-menu.active {
     display: block;
   }
   .nav-menu {
     position: absolute;
-    width: 80%;
+    top: 66px;
+    width: 66%;
     left: 0;
-    background-color: var(--app-bg-color);
-    box-shadow: 0 2px 2px rgba(10, 10, 10, 0.1);
-    padding: 0.5rem 0.5rem;
+    background-image: linear-gradient(180deg, #fff, #f1f2f3);
+    box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+    padding: 0rem 0.5rem;
     animation: moveLeftCurrent 0.5s;
-    border-radius: 5px;
+  }
+  .nav-menu .navbar-right .navbar-item {
+    border-bottom: 1px solid #eee;
   }
 }
 
@@ -577,7 +575,6 @@ body.bg {
     transform: translateY(0);
   }
 }
-
 .button {
   display: inline-block;
   font: inherit;
@@ -626,6 +623,30 @@ body.bg {
 .button-blue:hover {
   background-color: #1c52be;
   color: #fff;
+}
+.ripple {
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+.ripple::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #eee 10%, transparent 10.01%);
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform 0.5s, opacity 1s;
+}
+.ripple:active::after {
+  transform: scale(0, 0);
+  opacity: 0.3;
+  transition: 0s;
 }
 /*shapes*/
 .covid-angle {
@@ -743,8 +764,6 @@ body.bg {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 #eee; */
   background: #f1f2f3;
   box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
@@ -1201,4 +1220,215 @@ body.bg {
 }
 .covid19-useful-links a:hover {
   text-decoration: underline;
+}
+
+/* mobile css */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+  .covid19-title {
+    font-size: 48px;
+  }
+  .covid19-subtitle {
+    font-size: 32px;
+  }
+  .covid19-text {
+    font-size: 14px;
+  }
+  .covid-angle2 {
+    bottom: 30px;
+  }
+  .realtime-data-section-title {
+    font-size: 24px;
+  }
+  .realtime-data-card {
+    margin-top: 20px;
+  }
+  .banner-right {
+    display: none;
+  }
+  .covid19-circle {
+    right: 0;
+  }
+  .google-map {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .covid19-country-map {
+    display: none;
+  }
+  .covid19-country-detail {
+    width: 100%;
+    height: 100%;
+  }
+  .scrollable-cases-div {
+    height: 250px;
+  }
+  .symptom-image-section {
+    display: none;
+  }
+  .contagion-image-section {
+    display: none;
+  }
+  .contagion-desc-section > p {
+    font-size: 14px;
+  }
+  .prevention-image-section {
+    display: none;
+  }
+  .space-between {
+    flex-wrap: wrap;
+  }
+  .symptoms > p {
+    color: rgb(107, 105, 105);
+    line-height: 2;
+    font-size: 14px;
+  }
+  .box-shadowed-circle:nth-child(3),
+  .box-shadowed-circle:nth-child(4) {
+    margin-top: 20px;
+  }
+  .footer-info {
+    padding: 20px;
+  }
+  .covid19-useful-links {
+    padding: 20px;
+  }
+  .corona-emergency-numbers {
+    padding: 20px;
+  }
+  .ml-90 {
+    margin-left: 0px;
+  }
+}
+/*modal*/
+.modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding-top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  top: 0;
+  z-index: 100000;
+  background-color: rgba(0, 0, 0, 0.315);
+}
+.modal-content {
+  max-height: calc(100vh - 160px);
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+  animation-name: modalopen;
+  animation-duration: 1000ms;
+  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+}
+.modal-header {
+  position: relative;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #444;
+  font-weight: 400;
+}
+.modal-body {
+  padding: 20px;
+}
+.modal-body > p {
+  color: rgb(17, 30, 70);
+}
+.modal-footer {
+  padding: 10px;
+}
+.modal.active {
+  display: block;
+}
+
+.close-modal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  right: 8px;
+  top: 14px;
+  border-radius: 50%;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #eee;
+}
+.create-modal-header {
+  font-weight: 600;
+  border-bottom: 1px solid #dddddd;
+}
+
+@media screen and (min-width: 769px), print {
+  .modal-content {
+    margin: 0 auto;
+    max-height: calc(100vh - 40px);
+    width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .modal-content {
+    margin: 0 auto;
+    width: 300px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+.modal-divider {
+  position: relative;
+  text-align: center;
+  color: #b6b8c9;
+}
+.modal-divider::before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 1px;
+  top: 44%;
+  left: 35%;
+  margin-right: 50px;
+  border: 0.5px solid #b6b8c9;
+}
+.modal-divider::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 1px;
+  top: 44%;
+  margin-left: 10px;
+  border: 0.5px solid #b6b8c9;
+}
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
