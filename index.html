@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./UI/assets/css/style.css" />
     <title>Corvid19 - Tracking Coronavirus cases all over the World</title>
   </head>
+
   <body>
     <div id="app">
       <div class="header">
@@ -35,16 +36,24 @@
             <div class="nav-menu" id="navMenu">
               <div class="navbar-left"></div>
               <div class="navbar-right">
-                <a class="navbar-item ripple active" href="#realtime-data-section">Situation</a>
-                <a class="navbar-item ripple" href="#contagion-section">Contagion</a>
-                <a class="navbar-item ripple" href="#symptoms-section">Symptoms</a>
-                <a class="navbar-item ripple" href="#prevention-section">Prevention</a>
+                <a
+                  class="navbar-item ripple active"
+                  href="#realtime-data-section"
+                  >Situation</a
+                >
+                <a class="navbar-item ripple" href="#contagion-section"
+                  >Contagion</a
+                >
+                <a class="navbar-item ripple" href="#symptoms-section"
+                  >Symptoms</a
+                >
+                <a class="navbar-item ripple" href="#prevention-section"
+                  >Prevention</a
+                >
                 <div class="navbar-item">
-                  <a href="#footer-section"
-                    class="button covid-button ripple"
-                  >
+                  <a href="#footer-section" class="button covid-button ripple">
                     Contact Numbers
-                </a>
+                  </a>
                 </div>
               </div>
             </div>
@@ -83,7 +92,12 @@
                   Acute Respiratory Syndrome (SARS-CoV).
                 </p>
                 <div class="pt-20">
-                  <button class="button button-outline button-click ripple" data-target="1">Read More</button>
+                  <button
+                    class="button button-outline button-click ripple"
+                    data-target="1"
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
@@ -92,19 +106,6 @@
                 <div class="sample-corona-virus-icon">
                   <img src="./UI/assets/images/coronavirus.svg" alt="" />
                 </div>
-                <!-- <div class="covid19-clip-image">
-                  <div class="covid19-inner-image">
-                    <img src="./assets/images/covid19a.jpg" alt="" />
-                  </div>
-                </div>
-                <div class="covid19-clip-image2">
-                  <div class="covid19-inner-image2">
-                    <img src="./assets/images/covid19b.jpg" alt="" />
-                  </div>
-                </div> -->
-                <!-- <div class="covid19-dot">
-                  <img src="./assets/images/dots.svg" alt="" />
-                </div> -->
               </div>
             </div>
           </div>
@@ -115,353 +116,29 @@
       </div>
       <section class="realtime-data-section section" id="realtime-data-section">
         <div class="container">
-          <h1 class="realtime-data-section-title">Realtime Monitoring of CORVID-19</h1>
-          <div class="columns mt-60">
-            <div class="col-3">
-              <div class="realtime-data-card">
-                <div>
-                  <h1 class="realtime-data-card-title">Aggregated Confirmed</h1>
-                  <div class="flex-center">
-                    <div class="realtime-data-card-count">
-                      <span class="realtime-data-card-count-span">56,700</span>
-                      <span>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.1556 6.14885L5.96962 0.172286C5.92275 0.118206 5.86479 0.0748342 5.79969 0.045109C5.73458 0.0153839 5.66385 0 5.59228 0C5.52071 0 5.44998 0.0153839 5.38487 0.045109C5.31977 0.0748342 5.26182 0.118206 5.21494 0.172286L0.0305631 6.14885C0.014897 6.16686 0.00473901 6.189 0.00129937 6.21263C-0.00214026 6.23625 0.00128332 6.26037 0.0111623 6.2821C0.0210412 6.30383 0.0369592 6.32227 0.0570202 6.33521C0.0770811 6.34815 0.10044 6.35506 0.124313 6.3551H1.38994C1.46181 6.3551 1.53056 6.32385 1.579 6.26916L4.99931 2.32697V11.1254C4.99931 11.1942 5.05556 11.2504 5.12431 11.2504H6.06181C6.13056 11.2504 6.18681 11.1942 6.18681 11.1254V2.32697L9.60713 6.26916C9.654 6.32385 9.72275 6.3551 9.79619 6.3551H11.0618C11.1681 6.3551 11.2259 6.2301 11.1556 6.14885Z" fill="#da242d"/>
-                          </svg>                      
-                      <span class="realtime-data-card-count-diff negative-color"> 2,300</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="realtime-data-card">
-                <div>
-                  <h1 class="realtime-data-card-title">Active</h1>
-                  <div class="flex-center">
-                    <div class="realtime-data-card-count">
-                      <span class="realtime-data-card-count-span">56,700</span>
-                      <span>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.1556 6.14885L5.96962 0.172286C5.92275 0.118206 5.86479 0.0748342 5.79969 0.045109C5.73458 0.0153839 5.66385 0 5.59228 0C5.52071 0 5.44998 0.0153839 5.38487 0.045109C5.31977 0.0748342 5.26182 0.118206 5.21494 0.172286L0.0305631 6.14885C0.014897 6.16686 0.00473901 6.189 0.00129937 6.21263C-0.00214026 6.23625 0.00128332 6.26037 0.0111623 6.2821C0.0210412 6.30383 0.0369592 6.32227 0.0570202 6.33521C0.0770811 6.34815 0.10044 6.35506 0.124313 6.3551H1.38994C1.46181 6.3551 1.53056 6.32385 1.579 6.26916L4.99931 2.32697V11.1254C4.99931 11.1942 5.05556 11.2504 5.12431 11.2504H6.06181C6.13056 11.2504 6.18681 11.1942 6.18681 11.1254V2.32697L9.60713 6.26916C9.654 6.32385 9.72275 6.3551 9.79619 6.3551H11.0618C11.1681 6.3551 11.2259 6.2301 11.1556 6.14885Z" fill="#da242d"/>
-                          </svg>                      
-                      <span class="realtime-data-card-count-diff negative-color"> 2,300</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="realtime-data-card">
-                <div>
-                  <h1 class="realtime-data-card-title">Recovered</h1>
-                  <div class="flex-center">
-                    <div class="realtime-data-card-count">
-                      <span class="realtime-data-card-count-span">106,700</span>
-                      <span>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.1556 6.14885L5.96962 0.172286C5.92275 0.118206 5.86479 0.0748342 5.79969 0.045109C5.73458 0.0153839 5.66385 0 5.59228 0C5.52071 0 5.44998 0.0153839 5.38487 0.045109C5.31977 0.0748342 5.26182 0.118206 5.21494 0.172286L0.0305631 6.14885C0.014897 6.16686 0.00473901 6.189 0.00129937 6.21263C-0.00214026 6.23625 0.00128332 6.26037 0.0111623 6.2821C0.0210412 6.30383 0.0369592 6.32227 0.0570202 6.33521C0.0770811 6.34815 0.10044 6.35506 0.124313 6.3551H1.38994C1.46181 6.3551 1.53056 6.32385 1.579 6.26916L4.99931 2.32697V11.1254C4.99931 11.1942 5.05556 11.2504 5.12431 11.2504H6.06181C6.13056 11.2504 6.18681 11.1942 6.18681 11.1254V2.32697L9.60713 6.26916C9.654 6.32385 9.72275 6.3551 9.79619 6.3551H11.0618C11.1681 6.3551 11.2259 6.2301 11.1556 6.14885Z" fill="#07AA8D"/>
-                          </svg>                      
-                      <span class="realtime-data-card-count-diff positive-color"> 2,300</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="realtime-data-card">
-                <div>
-                  <h1 class="realtime-data-card-title">Death</h1>
-                  <div class="flex-center">
-                    <div class="realtime-data-card-count">
-                      <span class="realtime-data-card-count-span">56,700</span>
-                      <span>
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.1556 6.14885L5.96962 0.172286C5.92275 0.118206 5.86479 0.0748342 5.79969 0.045109C5.73458 0.0153839 5.66385 0 5.59228 0C5.52071 0 5.44998 0.0153839 5.38487 0.045109C5.31977 0.0748342 5.26182 0.118206 5.21494 0.172286L0.0305631 6.14885C0.014897 6.16686 0.00473901 6.189 0.00129937 6.21263C-0.00214026 6.23625 0.00128332 6.26037 0.0111623 6.2821C0.0210412 6.30383 0.0369592 6.32227 0.0570202 6.33521C0.0770811 6.34815 0.10044 6.35506 0.124313 6.3551H1.38994C1.46181 6.3551 1.53056 6.32385 1.579 6.26916L4.99931 2.32697V11.1254C4.99931 11.1942 5.05556 11.2504 5.12431 11.2504H6.06181C6.13056 11.2504 6.18681 11.1942 6.18681 11.1254V2.32697L9.60713 6.26916C9.654 6.32385 9.72275 6.3551 9.79619 6.3551H11.0618C11.1681 6.3551 11.2259 6.2301 11.1556 6.14885Z" fill="#da242d"/>
-                          </svg>                      
-                      <span class="realtime-data-card-count-diff negative-color"> 2,300</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h1 class="realtime-data-section-title">
+            Realtime Monitoring of COVID-19
+          </h1>
+          <div class="columns mt-60 dataColumns"></div>
           <div class="columns pt-40">
             <div class="col-4">
               <div class="covid19-search-card">
                 <div class="search-field">
-                  <input class="input-field" type="text" placeholder="search by country" />
-                  <img class="search-icon" src="./UI/assets/icons/search.svg" alt="search icon" />
+                  <select class="select-field">
+                    <option value="all">All</option>
+                    <!-- {countries.map(country =>  (<option key={country.Slug} value={country.Slug}>{country.Country}</option>))} -->
+                  </select>
                 </div>
 
                 <div class="scrollable-search-div">
-                  <div class="covid19-search-result">
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇨🇦
-                          </span>
-                          <span class="country-name">
-                            Canada
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          800
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇧🇪
-                          </span>
-                          <span class="country-name">
-                            Germany
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          1800
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇨🇳
-                          </span>
-                          <span class="country-name">
-                            China
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          900000
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇪🇸
-                          </span>
-                          <span class="country-name">
-                            Spain
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          800
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇫🇷
-                          </span>
-                          <span class="country-name">
-                            France
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          800
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇰🇷
-                          </span>
-                          <span class="country-name">
-                            South Korea
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          1000
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇰🇷
-                          </span>
-                          <span class="country-name">
-                            South Korea
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          1000
-                        </div>
-                      </div>
-                    </a>
-                    <a class="covid19-search-result-item ripple">
-                      <div class="space-between align-center px-20">
-                        <div class="flex-center align-center">
-                          <span class="country-flag">
-                            🇰🇷
-                          </span>
-                          <span class="country-name">
-                            South Korea
-                          </span>
-                        </div>
-                        <div class="country-cases-total">
-                          1000
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                  <div class="covid19-search-result"></div>
                 </div>
               </div>
             </div>
             <div class="col-8">
               <div class="google-map">
-                <div class="covid19-country-map">
-                  <img src="./UI/assets/images/GoogleMapTA.jpg" alt="Map" />
-                </div>
-                <div class="covid19-country-detail">
-                  <div class="covid19-country-detail-header flex-start">
-                    <div class="covid19-country-details-flag">
-                      <span>
-                        🇳🇬
-                      </span>
-                    </div>
-                    <div class="covid19-country-name">
-                      <div>Nigeria</div>
-                      <span>Africa</span>
-                    </div>
-                  </div>
-                  <div class="covid19-country-stats">
-                    <div class="space-between">
-                      <div class="covid19-country-stats-numbers">
-                        <span>56</span> 
-                        <span>Confirmed</span>
-                      </div>
-                      <div class="covid19-country-stats-numbers">
-                        <span class="negative-color">10</span>
-                        <span>Deaths</span>
-                      </div>
-                      <div class="covid19-country-stats-numbers">
-                        <span class="positive-color">45</span>
-                        <span>Recovered</span>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="fs-14 text-center">Total 55 cases confimed in 4 states</p>
-                      <div class="scrollable-cases-div">
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Lagos State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases ripple">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="state-cases">
-                          <div class="case-image">
-                            <img src="./UI/assets/images/covid19a.jpg" alt="case image" />
-                          </div>
-                          <div class="state-cases-desc">
-                            <span>Enugu State</span>
-                            <div class="space-between state-cases-desc-stats">
-                              <span>Confirmed: <span>3</span>|</span>
-                              <span>Deaths: <span>1</span>|</span>
-                              <span>Recovered: <span>1</span></span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-                
+                <h1>Nigeria</h1>
+                <img src="./UI/assets/images/map.png" alt="Map" />
               </div>
             </div>
           </div>
@@ -469,93 +146,133 @@
       </section>
       <section class="section symptoms-section" id="symptoms-section">
         <div class="symptoms-angle-decorator">
-          <img src="./UI/assets/images/angle4.svg" alt="rectangle">
+          <img src="./UI/assets/images/angle4.svg" alt="rectangle" />
         </div>
-         <div class="container">
-           <div class="columns">
-             <div class="col-7">
-               <div class="symptoms">
-                 <h1 class="bold-text">1</h1>
-                 <h1 class="h2">Symptoms</h1>
-                 <p>
-                  People may be sick with the virus for 1 to 14 days before developing symptoms. The most common symptoms of coronavirus disease (COVID-19) are fever, tiredness, and dry cough. Most people (about 80%) recover from the disease without needing special treatment.
-                  More rarely, the disease can be serious and even fatal. Older people, and people with other medical conditions (such as asthma, diabetes, or heart disease), may be more vulnerable to becoming severely ill.
-                 </p>
-                 <div class="space-between pt-20">
+        <div class="container">
+          <div class="columns">
+            <div class="col-7">
+              <div class="symptoms">
+                <h1 class="bold-text">1</h1>
+                <h1 class="h2">Symptoms</h1>
+                <p>
+                  People may be sick with the virus for 1 to 14 days before
+                  developing symptoms. The most common symptoms of coronavirus
+                  disease (COVID-19) are fever, tiredness, and dry cough. Most
+                  people (about 80%) recover from the disease without needing
+                  special treatment. More rarely, the disease can be serious and
+                  even fatal. Older people, and people with other medical
+                  conditions (such as asthma, diabetes, or heart disease), may
+                  be more vulnerable to becoming severely ill.
+                </p>
+                <div class="space-between pt-20">
                   <div class="box-shadowed-circle">
                     <div class="illustration-wrapper">
                       <div class="illustration-icon">
-                       <img src="./UI/assets/images/iconfinder___cough_coughing_symptom_5925233.png" alt="coughing/sneezing illustration" />
+                        <img
+                          src="./UI/assets/images/iconfinder___cough_coughing_symptom_5925233.png"
+                          alt="coughing/sneezing illustration"
+                        />
                       </div>
                       <span>Coughing/Sneezing</span>
                     </div>
                   </div>
                   <div class="box-shadowed-circle">
-                   <div class="illustration-wrapper">
-                     <div class="illustration-icon">
-                      <img src="./UI/assets/images/iconfinder___fever_high_temperature_5925230.png" alt="fever illustration" />
-                     </div>
-                     <span>Fever</span>
-                   </div>
-                  </div>
-                  <div class="box-shadowed-circle">
-                   <div class="illustration-wrapper">
-                     <div class="illustration-icon">
-                      <img src="./UI/assets/images/iconfinder___tiredness_tired_fatigue_5925227.png" alt="tiredness illustration" />
-                     </div>
-                     <span>Tiredness</span>
-                   </div>
+                    <div class="illustration-wrapper">
+                      <div class="illustration-icon">
+                        <img
+                          src="./UI/assets/images/iconfinder___fever_high_temperature_5925230.png"
+                          alt="fever illustration"
+                        />
+                      </div>
+                      <span>Fever</span>
+                    </div>
                   </div>
                   <div class="box-shadowed-circle">
                     <div class="illustration-wrapper">
                       <div class="illustration-icon">
-                       <img src="./UI/assets/images/iconfinder___cough_coughing_symptom_5925233.png" alt="coughing/sneezing illustration" />
+                        <img
+                          src="./UI/assets/images/iconfinder___tiredness_tired_fatigue_5925227.png"
+                          alt="tiredness illustration"
+                        />
+                      </div>
+                      <span>Tiredness</span>
+                    </div>
+                  </div>
+                  <div class="box-shadowed-circle">
+                    <div class="illustration-wrapper">
+                      <div class="illustration-icon">
+                        <img
+                          src="./UI/assets/images/iconfinder___cough_coughing_symptom_5925233.png"
+                          alt="coughing/sneezing illustration"
+                        />
                       </div>
                       <span>Coughing/Sneezing</span>
                     </div>
                   </div>
                 </div>
-                 <div class="flex-start mt-50">
-                   <button class="button button-blue button-click ripple" data-target="2">Read More</button>
-                 </div>
-               </div>
-             </div>
-             <div class="col-5">
-               <div class="symptom-image-section">
+                <div class="flex-start mt-50">
+                  <button
+                    class="button button-blue button-click ripple"
+                    data-target="2"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="symptom-image-section">
                 <div class="symptoms-svg">
                   <img src="./UI/assets/images/cough.svg" alt="cough icon" />
                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="section contagion-section" id="contagion-section">
         <div class="container">
           <div class="columns">
             <div class="col-6">
               <div class="contagion-image-section">
-                <img src="./UI/assets/images/virus-transmission.svg">
+                <img src="./UI/assets/images/virus-transmission.svg" />
                 <div class="contagion-aesthetics-dots">
-                  <img src="./UI/assets/images/reddots.svg" alt="aesthetics illustration" />
+                  <img
+                    src="./UI/assets/images/reddots.svg"
+                    alt="aesthetics illustration"
+                  />
                 </div>
                 <div class="contagion-aesthetics-blue-circle">
-                  <img src="./UI/assets/images/circle.svg" alt="aesthetics illustration" />
+                  <img
+                    src="./UI/assets/images/circle.svg"
+                    alt="aesthetics illustration"
+                  />
                 </div>
                 <div class="contagion-aesthetics-red-circle">
-                  <img src="./UI/assets/images/circle1.svg" alt="aesthetics illustration" />
+                  <img
+                    src="./UI/assets/images/circle1.svg"
+                    alt="aesthetics illustration"
+                  />
                 </div>
               </div>
             </div>
             <div class="col-6">
               <div class="contagion-desc-section">
                 <h1 class="bold-text">2</h1>
-                 <h1 class="h2">Contagion</h1>
-                 <p>
-                  Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.
-                 </p>
-                 <div class="flex-start mt-50">
-                  <button class="button button-blue button-click ripple" data-target="3">Read More</button>
+                <h1 class="h2">Contagion</h1>
+                <p>
+                  Coronavirus disease spreads primarily through contact with an
+                  infected person when they cough or sneeze. It also spreads
+                  when a person touches a surface or object that has the virus
+                  on it, then touches their eyes, nose, or mouth.
+                </p>
+                <div class="flex-start mt-50">
+                  <button
+                    class="button button-blue button-click ripple"
+                    data-target="3"
+                  >
+                    Read More
+                  </button>
                 </div>
               </div>
             </div>
@@ -564,101 +281,145 @@
       </section>
       <section class="section prevention-section" id="prevention-section">
         <div class="prevention-angle-decorator">
-          <img src="./UI/assets/images/angle2.svg" alt="rectangle">
+          <img src="./UI/assets/images/angle2.svg" alt="rectangle" />
         </div>
-         <div class="container">
-           <div class="columns">
-             <div class="col-6">
-               <div class="symptoms">
-                 <h1 class="bold-text">3</h1>
-                 <h1 class="h2">Prevention</h1>
-                 <p>
-                  Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.
-                 </p>
-                 <div class="flex-start pt-20">
-                   <div class="box-shadowed-circle-lg">
-                     <div class="illustration-wrapper">
-                       <div class="illustration-icon">
-                        <img src="./UI/assets/images/washhands.png" alt="coughing/sneezing illustration" />
-                       </div>
-                       <span>Wash your hands often</span>
-                     </div>
-                   </div>
-                   <div class="box-shadowed-circle-lg ml-30">
+        <div class="container">
+          <div class="columns">
+            <div class="col-6">
+              <div class="symptoms">
+                <h1 class="bold-text">3</h1>
+                <h1 class="h2">Prevention</h1>
+                <p>
+                  Coronavirus disease spreads primarily through contact with an
+                  infected person when they cough or sneeze. It also spreads
+                  when a person touches a surface or object that has the virus
+                  on it, then touches their eyes, nose, or mouth.
+                </p>
+                <div class="flex-start pt-20">
+                  <div class="box-shadowed-circle-lg">
                     <div class="illustration-wrapper">
                       <div class="illustration-icon">
-                       <img src="./UI/assets/images/touchface.png" alt="fever illustration" />
+                        <img
+                          src="./UI/assets/images/washhands.png"
+                          alt="coughing/sneezing illustration"
+                        />
+                      </div>
+                      <span>Wash your hands often</span>
+                    </div>
+                  </div>
+                  <div class="box-shadowed-circle-lg ml-30">
+                    <div class="illustration-wrapper">
+                      <div class="illustration-icon">
+                        <img
+                          src="./UI/assets/images/touchface.png"
+                          alt="fever illustration"
+                        />
                       </div>
                       <span>Don’t touch your face</span>
                     </div>
-                   </div>
-                   <div class="box-shadowed-circle-lg ml-30">
+                  </div>
+                  <div class="box-shadowed-circle-lg ml-30">
                     <div class="illustration-wrapper">
                       <div class="illustration-icon">
-                       <img src="./UI/assets/images/handshake.png" alt="tiredness illustration" />
+                        <img
+                          src="./UI/assets/images/handshake.png"
+                          alt="tiredness illustration"
+                        />
                       </div>
                       <span>Avoid hand contact</span>
                     </div>
-                   </div>
-                 </div>
-                  <div class="flex-start pt-20 ml-90">
-                    <div class="box-shadowed-circle-lg">
-                      <div class="illustration-wrapper">
-                        <div class="illustration-icon">
-                         <img src="./UI/assets/images/distance.png" alt="coughing/sneezing illustration" />
-                        </div>
-                        <span>Keep safe distance</span>
-                      </div>
-                    </div>
-                    <div class="box-shadowed-circle-lg ml-30">
-                     <div class="illustration-wrapper">
-                       <div class="illustration-icon">
-                        <img src="./UI/assets/images/stayhome.png" alt="fever illustration" />
-                       </div>
-                       <span>Stay at home if you can</span>
-                     </div>
-                    </div>
-                  </div>
-                 <div class="flex-center mt-50">
-                   <button class="button button-blue button-click ripple" data-target="4">Read More</button>
-                 </div>
-               </div>
-             </div>
-             <div class="col-6">
-               <div class="prevention-image-section">
-                <div class="prevention-image-clips">
-                  <div class="prevention-inner-image">
-                    <img src="./UI/assets/images/stay-home.svg" alt="prevention image"/>
-                  </div>
-                  <div class="prevention-aesthetics-blue-circle">
-                    <img src="./UI/assets/images/bluecircle.svg" alt="aesthetics blue circle"/>
-                  </div>
-                  <div class="prevention-aesthetics-green-circle">
-                    <img src="./UI/assets/images/greencircle.svg" alt="aesthetics green circle"/>
-                  </div>
-                  <div class="prevention-aesthetics-red-dots">
-                    <img src="./UI/assets/images/reddots.svg" alt="aesthetics dots"/>
                   </div>
                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
+                <div class="flex-start pt-20 ml-90">
+                  <div class="box-shadowed-circle-lg">
+                    <div class="illustration-wrapper">
+                      <div class="illustration-icon">
+                        <img
+                          src="./UI/assets/images/distance.png"
+                          alt="coughing/sneezing illustration"
+                        />
+                      </div>
+                      <span>Keep safe distance</span>
+                    </div>
+                  </div>
+                  <div class="box-shadowed-circle-lg ml-30">
+                    <div class="illustration-wrapper">
+                      <div class="illustration-icon">
+                        <img
+                          src="./UI/assets/images/stayhome.png"
+                          alt="fever illustration"
+                        />
+                      </div>
+                      <span>Stay at home if you can</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-center mt-50">
+                  <button
+                    class="button button-blue button-click ripple"
+                    data-target="4"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="prevention-image-section">
+                <div class="prevention-image-clips">
+                  <div class="prevention-inner-image">
+                    <img
+                      src="./UI/assets/images/stay-home.svg"
+                      alt="prevention image"
+                    />
+                  </div>
+                  <div class="prevention-aesthetics-blue-circle">
+                    <img
+                      src="./UI/assets/images/bluecircle.svg"
+                      alt="aesthetics blue circle"
+                    />
+                  </div>
+                  <div class="prevention-aesthetics-green-circle">
+                    <img
+                      src="./UI/assets/images/greencircle.svg"
+                      alt="aesthetics green circle"
+                    />
+                  </div>
+                  <div class="prevention-aesthetics-red-dots">
+                    <img
+                      src="./UI/assets/images/reddots.svg"
+                      alt="aesthetics dots"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="section">
         <div class="container">
-          <h1 class="text-center pb-20">Remember, we’ll get through this, be sure to play your part</h1>
+          <h1 class="text-center pb-20">
+            Remember, we’ll get through this, be sure to play your part
+          </h1>
           <div class="columns">
             <div class="col-3"></div>
             <div class="col-6">
               <div class="info-card">
                 <div class="flex-start">
                   <div class="info-card-image">
-                    <img src="./UI/assets/images/coronasol.jpg" alt="hope image"/>
+                    <img
+                      src="./UI/assets/images/coronasol.jpg"
+                      alt="hope image"
+                    />
                   </div>
                   <div class="info-card-message">
                     <span>For more information,visit</span>
-                    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" _blank>Coronavirus emergency information</a>
+                    <a
+                      href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+                      _blank
+                      >Coronavirus emergency information</a
+                    >
                   </div>
                 </div>
               </div>
@@ -673,20 +434,26 @@
             <div class="col-4">
               <div class="footer-info">
                 <div class="flex-start align-center">
-                  <div><img class="" src="./UI/assets/icons/logo.svg"/></div>
+                  <div><img class="" src="./UI/assets/icons/logo.svg" /></div>
                   <h1 class="h3 color-white">Covid-19</h1>
                 </div>
                 <span class="h4 color-white">Source:</span>
-                  <p class="color-white">
-                    The infos on this this webpage were crawled from WHO, images were downloaded from Pixaybay and Pexels, Icons were downloaded from Iconfinder and Flaticons.
-                  </p>
+                <p class="color-white">
+                  The infos on this this webpage were crawled from WHO, images
+                  were downloaded from Pixaybay and Pexels, Icons were
+                  downloaded from Iconfinder and Flaticons.
+                </p>
               </div>
             </div>
             <div class="col-3">
               <div class="covid19-useful-links">
                 <h2>Useful Links</h2>
                 <a href="#">WHO Information</a>
-                <a href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019" target=”_blank”>COVID-19 wikipedia</a>
+                <a
+                  href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019"
+                  target="”_blank”"
+                  >COVID-19 wikipedia</a
+                >
                 <a href="#">World News on COVID-19</a>
               </div>
             </div>
@@ -694,13 +461,13 @@
               <div class="corona-emergency-numbers">
                 <h1 class="color-white h5">Emergency Numbers to Call</h1>
                 <p class="color-white">
-                  +2348000070002, +2348000070002, +2348000070002 +2348000070002, +2348000070002
+                  +2348000070002, +2348000070002, +2348000070002 +2348000070002,
+                  +2348000070002
                 </p>
               </div>
             </div>
           </div>
         </div>
-        
       </section>
       <section>
         <div class="bottom-footer">
@@ -712,22 +479,63 @@
       <div class="modal-content">
         <div class="modal-header">
           <span class="close-modal">
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11 1L1 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M1 1L11 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L11 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </span>
         </div>
         <div class="modal-body">
-          <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
+          <p>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a
+            newly discovered coronavirus.
+          </p>
 
-          <p>Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
-          
-          <p>The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. </p>
-          
-          <p>The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).</p>
-          
-          <p>At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.</p>
+          <p>
+            Most people infected with the COVID-19 virus will experience mild to
+            moderate respiratory illness and recover without requiring special
+            treatment. Older people, and those with underlying medical problems
+            like cardiovascular disease, diabetes, chronic respiratory disease,
+            and cancer are more likely to develop serious illness.
+          </p>
+
+          <p>
+            The best way to prevent and slow down transmission is be well
+            informed about the COVID-19 virus, the disease it causes and how it
+            spreads. Protect yourself and others from infection by washing your
+            hands or using an alcohol based rub frequently and not touching your
+            face.
+          </p>
+
+          <p>
+            The COVID-19 virus spreads primarily through droplets of saliva or
+            discharge from the nose when an infected person coughs or sneezes,
+            so it’s important that you also practice respiratory etiquette (for
+            example, by coughing into a flexed elbow).
+          </p>
+
+          <p>
+            At this time, there are no specific vaccines or treatments for
+            COVID-19. However, there are many ongoing clinical trials evaluating
+            potential treatments. WHO will continue to provide updated
+            information as soon as clinical findings become available.
+          </p>
         </div>
       </div>
     </div>
@@ -735,14 +543,37 @@
       <div class="modal-content">
         <div class="modal-header">
           <span class="close-modal">
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11 1L1 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M1 1L11 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L11 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </span>
         </div>
         <div class="modal-body">
-          <p>The COVID-19 virus affects different people in different ways.  COVID-19 is a respiratory disease and most infected people will develop mild to moderate symptoms and recover without requiring special treatment.  People who have underlying medical conditions and those over 60 years old have a higher risk of developing severe disease and death.</p>
+          <p>
+            The COVID-19 virus affects different people in different ways.
+            COVID-19 is a respiratory disease and most infected people will
+            develop mild to moderate symptoms and recover without requiring
+            special treatment. People who have underlying medical conditions and
+            those over 60 years old have a higher risk of developing severe
+            disease and death.
+          </p>
 
           <h1 class="h5">Common symptoms include:</h1>
           <ul>
@@ -755,12 +586,21 @@
             <li>shortness of breath</li>
             <li>aches and pains</li>
             <li>sore throat</li>
-            <li>and very few people will report diarrhoea, nausea or a runny nose.</li>
+            <li>
+              and very few people will report diarrhoea, nausea or a runny nose.
+            </li>
           </ul>
 
-          <p>People with mild symptoms who are otherwise healthy should self-isolate and contact their medical provider or a COVID-19 information line for advice on testing and referral.</p>
+          <p>
+            People with mild symptoms who are otherwise healthy should
+            self-isolate and contact their medical provider or a COVID-19
+            information line for advice on testing and referral.
+          </p>
 
-          <p>People with fever, cough or difficulty breathing should call their doctor and seek medical attention.</p>
+          <p>
+            People with fever, cough or difficulty breathing should call their
+            doctor and seek medical attention.
+          </p>
         </div>
       </div>
     </div>
@@ -768,22 +608,63 @@
       <div class="modal-content">
         <div class="modal-header">
           <span class="close-modal">
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11 1L1 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M1 1L11 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L11 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </span>
         </div>
         <div class="modal-body">
-          <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
+          <p>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a
+            newly discovered coronavirus.
+          </p>
 
-          <p>Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
-          
-          <p>The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. </p>
-          
-          <p>The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).</p>
-          
-          <p>At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.</p>
+          <p>
+            Most people infected with the COVID-19 virus will experience mild to
+            moderate respiratory illness and recover without requiring special
+            treatment. Older people, and those with underlying medical problems
+            like cardiovascular disease, diabetes, chronic respiratory disease,
+            and cancer are more likely to develop serious illness.
+          </p>
+
+          <p>
+            The best way to prevent and slow down transmission is be well
+            informed about the COVID-19 virus, the disease it causes and how it
+            spreads. Protect yourself and others from infection by washing your
+            hands or using an alcohol based rub frequently and not touching your
+            face.
+          </p>
+
+          <p>
+            The COVID-19 virus spreads primarily through droplets of saliva or
+            discharge from the nose when an infected person coughs or sneezes,
+            so it’s important that you also practice respiratory etiquette (for
+            example, by coughing into a flexed elbow).
+          </p>
+
+          <p>
+            At this time, there are no specific vaccines or treatments for
+            COVID-19. However, there are many ongoing clinical trials evaluating
+            potential treatments. WHO will continue to provide updated
+            information as soon as clinical findings become available.
+          </p>
         </div>
       </div>
     </div>
@@ -791,22 +672,52 @@
       <div class="modal-content">
         <div class="modal-header">
           <span class="close-modal">
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11 1L1 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M1 1L11 11" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 1L11 11"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
           </span>
         </div>
         <div class="modal-body">
-          <h1 class="h4">To prevent infection and to slow transmission of COVID-19, do the following:</h1>
+          <h1 class="h4">
+            To prevent infection and to slow transmission of COVID-19, do the
+            following:
+          </h1>
           <ul>
-            <li>Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.</li>
-            <li>Maintain at least 1 metre distance between you and people coughing or sneezing.</li>
+            <li>
+              Wash your hands regularly with soap and water, or clean them with
+              alcohol-based hand rub.
+            </li>
+            <li>
+              Maintain at least 1 metre distance between you and people coughing
+              or sneezing.
+            </li>
             <li>Avoid touching your face.</li>
             <li>Cover your mouth and nose when coughing or sneezing.</li>
             <li>Stay home if you feel unwell.</li>
-            <li>Refrain from smoking and other activities that weaken the lungs.</li>
-            <li>Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</li>
+            <li>
+              Refrain from smoking and other activities that weaken the lungs.
+            </li>
+            <li>
+              Practice physical distancing by avoiding unnecessary travel and
+              staying away from large groups of people.
+            </li>
           </ul>
         </div>
       </div>

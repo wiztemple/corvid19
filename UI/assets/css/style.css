@@ -703,6 +703,9 @@ body.bg {
 .px-20 {
   padding: 0 20px;
 }
+.py-20 {
+  padding: 20px 0;
+}
 .pd-0 {
   padding: 0 !important;
 }
@@ -760,7 +763,7 @@ body.bg {
 }
 .realtime-data-card {
   width: 100%;
-  height: 148px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -770,13 +773,13 @@ body.bg {
 }
 .realtime-data-card-title {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   color: #c4c4c4;
   text-align: center;
 }
 .realtime-data-card-count-span {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: 600;
 }
 .realtime-data-card-count-diff {
@@ -812,12 +815,75 @@ body.bg {
   margin: 20px 20px 10px 20px;
   padding: 5px;
   box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
-  border-radius: 10px;
+  border-radius: 999px;
 }
-.search-icon {
-  position: absolute;
-  top: 30%;
-  left: 10px;
+
+.select-field {
+  display: block;
+  color: #444;
+  line-height: 1.3;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 100%;
+  max-width: 100%; /* useful when width is set to anything other than 100% */
+  height: 45px;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid rgba(170, 170, 170, 0.182);
+  /* box-shadow: 0 1px 0 1px rgba(0,0,0,.04); */
+  border-radius: 999px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #ffffff 0%, #fff 100%);
+  background-repeat: no-repeat, repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right 0.7em top 50%, 0 0;
+  /* icon size, then gradient */
+  background-size: 0.65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-field::-ms-expand {
+  display: none;
+}
+/* Hover style */
+/* .select-field:hover {
+  border-color: rgba(136, 136, 136, 0.63);
+} */
+/* Focus style */
+.select-field:focus {
+  /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+  border-color: rgba(59, 153, 252, 0.7);
+
+  color: #222;
+  outline: none;
+}
+
+/* Set options to normal weight */
+.select-field option {
+  font-weight: normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-field,
+:root:lang(ar) .select-css,
+:root:lang(iw) .select-css {
+  background-position: left 0.7em top 50%, 0 0;
+  padding: 0.6em 0.8em 0.5em 1.4em;
+}
+
+/* Disabled styles */
+.select-field:disabled,
+.select-field[aria-disabled="true"] {
+  color: graytext;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    linear-gradient(to bottom, #ffffff 0%, #fff 100%);
+}
+
+.select-field:disabled:hover,
+.select-field[aria-disabled="true"] {
+  border-color: #aaa;
 }
 .scrollable-search-div {
   height: 500px;
@@ -848,9 +914,16 @@ body.bg {
   display: block;
   border-bottom: 0.5px solid #eee;
 }
+.covid19-search-result-item > div {
+  padding: 15px 20px;
+}
 .country-flag {
+  width: 30px;
+  height: 20px;
   display: block;
-  font-size: 36px;
+  background-image: linear-gradient(180deg, #fff, #f1f2f3);
+  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
 }
 .country-name {
   margin-left: 10px;
@@ -875,24 +948,14 @@ body.bg {
 .google-map {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: flex-start;
   border-radius: 10px;
-  box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07);
+  /* box-shadow: inset -4px -4px 6px #ffffff, -4px -4px 7px rgba(0, 0, 0, 0.07); */
 }
-.covid19-country-map {
-  width: 65%;
-}
-.covid19-country-map > img {
+
+.google-map > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-.covid19-country-detail {
-  width: 35%;
-  height: 100%;
+  object-fit: contain;
 }
 .covid19-country-detail-header {
   position: relative;
@@ -963,41 +1026,7 @@ body.bg {
   width: 2px;
 }
 /* Handle on hover */
-.scrollable-cases-div::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-.state-cases {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 5px 15px;
-  border-bottom: 0.5px solid #eee;
-}
-.state-cases:hover {
-  background: rgba(30, 98, 231, 0.12);
-}
-.case-image {
-  position: relative;
-}
-.case-image > img {
-  position: relative;
-  width: 55px;
-  height: 45px;
-  top: 4px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.state-cases-desc {
-  margin-left: 5px;
-}
-.state-cases-desc-stats {
-  margin-top: 2px;
-}
-.state-cases-desc-stats > span {
-  font-size: 10px;
-  color: #1e62e7;
-}
+
 /* symptoms  section */
 .bold-text {
   font-size: 94px;
@@ -1064,18 +1093,6 @@ body.bg {
   right: 0;
   top: 120px;
 }
-/* .symptom-clip {
-  position: absolute;
-  right: 0;
-  top: 100px;
-}
-.symptom-clip-image > img {
-  width: 400px;
-  height: 450px;
-  object-fit: cover;
-  border-radius: 10px;
-  clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
-} */
 
 /* contagion section */
 .contagion-section {
@@ -1137,28 +1154,7 @@ body.bg {
   right: 0;
   z-index: 6;
 }
-/* .prevention-inner-image > img {
-  width: 400px;
-  height: 350px;
-  object-fit: cover;
-  clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
-  border-radius: 10px;
-} */
-.prevention-inner-image2 {
-  /* position: absolute;
-  right: 0;
-  bottom: -700px; */
-  /* margin-left: 200px; */
-}
-/* .prevention-inner-image2 > img {
-  width: 400px;
-  height: 350px;
-  position: relative;
-  object-fit: cover;
-  clip-path: polygon(50% 0%, 100% 0, 80% 80%, 0 100%, 0% 75%, 0 0);
-  border-radius: 10px;
-  z-index: 2;
-} */
+
 .prevention-aesthetics-blue-circle {
   position: absolute;
   top: -40px;
@@ -1303,6 +1299,12 @@ body.bg {
   }
   .ml-90 {
     margin-left: 0px;
+  }
+  .green-10 {
+    color: rgb(20, 168, 20);
+  }
+  .red-10 {
+    color: rgb(204, 46, 46);
   }
 }
 /*modal*/

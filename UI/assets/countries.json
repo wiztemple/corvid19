@@ -1,0 +1,1443 @@
+[
+  {
+    "Country": "Côte d'Ivoire",
+    "Slug": "cote-divoire",
+    "ISO2": "CI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/ivory_coast_icon_square.png"
+  },
+  {
+    "Country": "Dominican Republic",
+    "Slug": "dominican-republic",
+    "ISO2": "DO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/dominican_republic_icon_square.png"
+  },
+  {
+    "Country": "Finland",
+    "Slug": "finland",
+    "ISO2": "FI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/finland_icon_square.png"
+  },
+  {
+    "Country": "Macao, SAR China",
+    "Slug": "macao-sar-china",
+    "ISO2": "MO"
+  },
+  {
+    "Country": "Saint-Barthélemy",
+    "Slug": "saint-barthélemy",
+    "ISO2": "BL"
+  },
+  {
+    "Country": "Antarctica",
+    "Slug": "antarctica",
+    "ISO2": "AQ"
+  },
+  {
+    "Country": "Cameroon",
+    "Slug": "cameroon",
+    "ISO2": "CM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/cameroon_icon_square.png"
+  },
+  {
+    "Country": "Belarus",
+    "Slug": "belarus",
+    "ISO2": "BY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/belarus_icon_square.png"
+  },
+  {
+    "Country": "Suriname",
+    "Slug": "suriname",
+    "ISO2": "SR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/suriname_icon_square.png"
+  },
+  {
+    "Country": "Wallis and Futuna Islands",
+    "Slug": "wallis-and-futuna-islands",
+    "ISO2": "WF"
+  },
+  {
+    "Country": "Angola",
+    "Slug": "angola",
+    "ISO2": "AO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/angola_icon_square.png"
+  },
+  {
+    "Country": "Myanmar",
+    "Slug": "myanmar",
+    "ISO2": "MM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/myanmar_icon_square.png"
+  },
+  {
+    "Country": "Cook Islands",
+    "Slug": "cook-islands",
+    "ISO2": "CK"
+  },
+  {
+    "Country": "Japan",
+    "Slug": "japan",
+    "ISO2": "JP",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/japan_icon_square.png"
+  },
+  {
+    "Country": "Nepal",
+    "Slug": "nepal",
+    "ISO2": "NP",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/nepal_icon_square.png"
+  },
+  {
+    "Country": "New Caledonia",
+    "Slug": "new-caledonia",
+    "ISO2": "NC",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/new_caledonia_icon_square.png"
+  },
+  {
+    "Country": "Cocos (Keeling) Islands",
+    "Slug": "cocos-keeling-islands",
+    "ISO2": "CC"
+  },
+  {
+    "Country": "Greece",
+    "Slug": "greece",
+    "ISO2": "GR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/greece_icon_square.png"
+  },
+  {
+    "Country": "Malta",
+    "Slug": "malta",
+    "ISO2": "MT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/malta_icon_square.png"
+  },
+  {
+    "Country": "Bahamas",
+    "Slug": "bahamas",
+    "ISO2": "BS",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bahamas_icon_square.png"
+  },
+  {
+    "Country": "Ethiopia",
+    "Slug": "ethiopia",
+    "ISO2": "ET",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/ethiopia_icon_square.png"
+  },
+  {
+    "Country": "Mongolia",
+    "Slug": "mongolia",
+    "ISO2": "MN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mongolia_icon_square.png"
+  },
+  {
+    "Country": "Uruguay",
+    "Slug": "uruguay",
+    "ISO2": "UY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/uruguay_icon_square.png"
+  },
+  {
+    "Country": "Andorra",
+    "Slug": "andorra",
+    "ISO2": "AD",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/andorra_icon_square.png"
+  },
+  {
+    "Country": "Hungary",
+    "Slug": "hungary",
+    "ISO2": "HU",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/hungary_icon_square.png"
+  },
+  {
+    "Country": "Spain",
+    "Slug": "spain",
+    "ISO2": "ES",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/spain_icon_square.png"
+  },
+  {
+    "Country": "Venezuela (Bolivarian Republic)",
+    "Slug": "venezuela",
+    "ISO2": "VE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/venezuela_icon_square.png"
+  },
+  {
+    "Country": "Korea (South)",
+    "Slug": "korea-south",
+    "ISO2": "KR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/south_korea_icon_square.png"
+  },
+  {
+    "Country": "Liberia",
+    "Slug": "liberia",
+    "ISO2": "LR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/liberia_icon_square.png"
+  },
+  {
+    "Country": "Montenegro",
+    "Slug": "montenegro",
+    "ISO2": "ME",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/montenegro_icon_square.png"
+  },
+  {
+    "Country": "Romania",
+    "Slug": "romania",
+    "ISO2": "RO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/romania_icon_square.png"
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "Slug": "sao-tome-and-principe",
+    "ISO2": "ST"
+  },
+  {
+    "Country": "Sudan",
+    "Slug": "sudan",
+    "ISO2": "SD",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/sudan_icon_square.png"
+  },
+  {
+    "Country": "Burkina Faso",
+    "Slug": "burkina-faso",
+    "ISO2": "BF",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/burkina_faso_icon_square.png"
+  },
+  {
+    "Country": "Gambia",
+    "Slug": "gambia",
+    "ISO2": "GM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/gambia_icon_square.png"
+  },
+  {
+    "Country": "Uzbekistan",
+    "Slug": "uzbekistan",
+    "ISO2": "UZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/uzbekistan_icon_square.png"
+  },
+  {
+    "Country": "Norway",
+    "Slug": "norway",
+    "ISO2": "NO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/norway_icon_square.png"
+  },
+  {
+    "Country": "Peru",
+    "Slug": "peru",
+    "ISO2": "PE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/peru_icon_square.png"
+  },
+  {
+    "Country": "Germany",
+    "Slug": "germany",
+    "ISO2": "DE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/germany_icon_square.png"
+  },
+  {
+    "Country": "Israel",
+    "Slug": "israel",
+    "ISO2": "IL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/israel_icon_square.png"
+  },
+  {
+    "Country": "Lithuania",
+    "Slug": "lithuania",
+    "ISO2": "LT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/lithuania_icon_square.png"
+  },
+  {
+    "Country": "Turkey",
+    "Slug": "turkey",
+    "ISO2": "TR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/turkey_icon_square.png"
+  },
+  {
+    "Country": "Cape Verde",
+    "Slug": "cape-verde",
+    "ISO2": "CV",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/cape_verde_icon_square.png"
+  },
+  {
+    "Country": "Heard and Mcdonald Islands",
+    "Slug": "heard-and-mcdonald-islands",
+    "ISO2": "HM"
+  },
+  {
+    "Country": "Malawi",
+    "Slug": "malawi",
+    "ISO2": "MW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/malawi_icon_square.png"
+  },
+  {
+    "Country": "Yemen",
+    "Slug": "yemen",
+    "ISO2": "YE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/yemen_icon_square.png"
+  },
+  {
+    "Country": "Latvia",
+    "Slug": "latvia",
+    "ISO2": "LV",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/latvia_icon_square.png"
+  },
+  {
+    "Country": "Netherlands Antilles",
+    "Slug": "netherlands-antilles",
+    "ISO2": "AN"
+  },
+  {
+    "Country": "Bahrain",
+    "Slug": "bahrain",
+    "ISO2": "BH",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bahrain_icon_square.png"
+  },
+  {
+    "Country": "Benin",
+    "Slug": "benin",
+    "ISO2": "BJ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/benin_icon_square.png"
+  },
+  {
+    "Country": "Jordan",
+    "Slug": "jordan",
+    "ISO2": "JO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/jordan_icon_square.png"
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "Slug": "antigua-and-barbuda",
+    "ISO2": "AG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/antigua_and_barbuda_icon_square.png"
+  },
+  {
+    "Country": "Guatemala",
+    "Slug": "guatemala",
+    "ISO2": "GT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/guatemala_icon_square.png"
+  },
+  {
+    "Country": "South Africa",
+    "Slug": "south-africa",
+    "ISO2": "ZA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/south_africa_icon_square.png"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Slug": "united-arab-emirates",
+    "ISO2": "AE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/united_arab_emirates_icon_square.png"
+  },
+  {
+    "Country": "Burundi",
+    "Slug": "burundi",
+    "ISO2": "BI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/burundi_icon_square.png"
+  },
+  {
+    "Country": "Central African Republic",
+    "Slug": "central-african-republic",
+    "ISO2": "CF",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/central_african_republic_icon_square.png"
+  },
+  {
+    "Country": "Nicaragua",
+    "Slug": "nicaragua",
+    "ISO2": "NI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/nicaragua_icon_square.png"
+  },
+  {
+    "Country": "Ireland",
+    "Slug": "ireland",
+    "ISO2": "IE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/ireland_icon_square.png"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Slug": "kyrgyzstan",
+    "ISO2": "KG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/kyrgyzstan_icon_square.png"
+  },
+  {
+    "Country": "Azerbaijan",
+    "Slug": "azerbaijan",
+    "ISO2": "AZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/azerbaijan_icon_square.png"
+  },
+  {
+    "Country": "Czech Republic",
+    "Slug": "czech-republic",
+    "ISO2": "CZ"
+  },
+  {
+    "Country": "Fiji",
+    "Slug": "fiji",
+    "ISO2": "FJ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/fiji_icon_square.png"
+  },
+  {
+    "Country": "Kuwait",
+    "Slug": "kuwait",
+    "ISO2": "KW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/kuwait_icon_square.png"
+  },
+  {
+    "Country": "Moldova",
+    "Slug": "moldova",
+    "ISO2": "MD",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/moldova_icon_square.png"
+  },
+  {
+    "Country": "Palau",
+    "Slug": "palau",
+    "ISO2": "PW"
+  },
+  {
+    "Country": "American Samoa",
+    "Slug": "american-samoa",
+    "ISO2": "AS"
+  },
+  {
+    "Country": "Rwanda",
+    "Slug": "rwanda",
+    "ISO2": "RW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/rwanda_icon_square.png"
+  },
+  {
+    "Country": "French Southern Territories",
+    "Slug": "french-southern-territories",
+    "ISO2": "TF"
+  },
+  {
+    "Country": "Haiti",
+    "Slug": "haiti",
+    "ISO2": "HT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/haiti_icon_square.png"
+  },
+  {
+    "Country": "Micronesia, Federated States of",
+    "Slug": "micronesia",
+    "ISO2": "FM"
+  },
+  {
+    "Country": "Saint Lucia",
+    "Slug": "saint-lucia",
+    "ISO2": "LC",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/st_lucia_icon_square.png"
+  },
+  {
+    "Country": "Tokelau",
+    "Slug": "tokelau",
+    "ISO2": "TK"
+  },
+  {
+    "Country": "Qatar",
+    "Slug": "qatar",
+    "ISO2": "QA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/qatar_icon_square.png"
+  },
+  {
+    "Country": "Togo",
+    "Slug": "togo",
+    "ISO2": "TG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/togo_icon_square.png"
+  },
+  {
+    "Country": "Uganda",
+    "Slug": "uganda",
+    "ISO2": "UG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/uganda_icon_square.png"
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Slug": "papua-new-guinea",
+    "ISO2": "PG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/papua_new_guinea_icon_square.png"
+  },
+  {
+    "Country": "Nigeria",
+    "Slug": "nigeria",
+    "ISO2": "NG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/nigeria_icon_square.png"
+  },
+  {
+    "Country": "Sri Lanka",
+    "Slug": "sri-lanka",
+    "ISO2": "LK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/sri_lanka_icon_square.png"
+  },
+  {
+    "Country": "Zimbabwe",
+    "Slug": "zimbabwe",
+    "ISO2": "ZW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/zimbabwe_icon_square.png"
+  },
+  {
+    "Country": "Bouvet Island",
+    "Slug": "bouvet-island",
+    "ISO2": "BV"
+  },
+  {
+    "Country": "Iran, Islamic Republic of",
+    "Slug": "iran",
+    "ISO2": "IR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/iran_icon_square.png"
+  },
+  {
+    "Country": "Guinea",
+    "Slug": "guinea",
+    "ISO2": "GN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/guinea_icon_square.png"
+  },
+  {
+    "Country": "North Macedonia",
+    "Slug": "north-macedonia",
+    "ISO2": "",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/macedonia_icon_square.png"
+  },
+  {
+    "Country": "Kazakhstan",
+    "Slug": "kazakhstan",
+    "ISO2": "KZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/kazakhstan_icon_square.png"
+  },
+  {
+    "Country": "Northern Mariana Islands",
+    "Slug": "northern-mariana-islands",
+    "ISO2": "MP"
+  },
+  {
+    "Country": "Portugal",
+    "Slug": "portugal",
+    "ISO2": "PT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/portugal_icon_square.png"
+  },
+  {
+    "Country": "Timor-Leste",
+    "Slug": "timor-leste",
+    "ISO2": "TL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/timor_leste_icon_square.png"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "Slug": "bosnia-and-herzegovina",
+    "ISO2": "BA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bosnia_herzegovina_icon_square.png"
+  },
+  {
+    "Country": "Iceland",
+    "Slug": "iceland",
+    "ISO2": "IS",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/iceland_icon_square.png"
+  },
+  {
+    "Country": "Mexico",
+    "Slug": "mexico",
+    "ISO2": "MX",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mexico_icon_square.png"
+  },
+  {
+    "Country": "Slovakia",
+    "Slug": "slovakia",
+    "ISO2": "SK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/slovakia_icon_square.png"
+  },
+  {
+    "Country": "Guyana",
+    "Slug": "guyana",
+    "ISO2": "GY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/guyana_icon_square.png"
+  },
+  {
+    "Country": "Bolivia",
+    "Slug": "bolivia",
+    "ISO2": "BO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bolivia_icon_square.png"
+  },
+  {
+    "Country": "Cambodia",
+    "Slug": "cambodia",
+    "ISO2": "KH",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/cambodia_icon_square.png"
+  },
+  {
+    "Country": "Congo (Brazzaville)",
+    "Slug": "congo-brazzaville",
+    "ISO2": "CG"
+  },
+  {
+    "Country": "Panama",
+    "Slug": "panama",
+    "ISO2": "PA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/panama_icon_square.png"
+  },
+  {
+    "Country": "Serbia",
+    "Slug": "serbia",
+    "ISO2": "RS",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/serbia_icon_square.png"
+  },
+  {
+    "Country": "Saint Helena",
+    "Slug": "saint-helena",
+    "ISO2": "SH"
+  },
+  {
+    "Country": "Viet Nam",
+    "Slug": "vietnam",
+    "ISO2": "VN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/vietnam_icon_square.png"
+  },
+  {
+    "Country": "Kiribati",
+    "Slug": "kiribati",
+    "ISO2": "KI"
+  },
+  {
+    "Country": "Norfolk Island",
+    "Slug": "norfolk-island",
+    "ISO2": "NF"
+  },
+  {
+    "Country": "British Indian Ocean Territory",
+    "Slug": "british-indian-ocean-territory",
+    "ISO2": "IO"
+  },
+  {
+    "Country": "Cayman Islands",
+    "Slug": "cayman-islands",
+    "ISO2": "KY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/cayman_islands_icon_square.png"
+  },
+  {
+    "Country": "Cyprus",
+    "Slug": "cyprus",
+    "ISO2": "CY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/cyprus_icon_square.png"
+  },
+  {
+    "Country": "Ecuador",
+    "Slug": "ecuador",
+    "ISO2": "EC",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/ecuador_icon_square.png"
+  },
+  {
+    "Country": "Mali",
+    "Slug": "mali",
+    "ISO2": "ML",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mali_icon_square.png"
+  },
+  {
+    "Country": "Turkmenistan",
+    "Slug": "turkmenistan",
+    "ISO2": "TM"
+  },
+  {
+    "Country": "Austria",
+    "Slug": "austria",
+    "ISO2": "AT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/austria_icon_square.png"
+  },
+  {
+    "Country": "Chile",
+    "Slug": "chile",
+    "ISO2": "CL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/chile_icon_square.png"
+  },
+  {
+    "Country": "Eritrea",
+    "Slug": "eritrea",
+    "ISO2": "ER",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/eritrea_icon_square.png"
+  },
+  {
+    "Country": "ALA Aland Islands",
+    "Slug": "ala-aland-islands",
+    "ISO2": "AX"
+  },
+  {
+    "Country": "Bulgaria",
+    "Slug": "bulgaria",
+    "ISO2": "BG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bulgaria_icon_square.png"
+  },
+  {
+    "Country": "Falkland Islands (Malvinas)",
+    "Slug": "falkland-islands-malvinas",
+    "ISO2": "FK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/falkland_islands_icon_square.png"
+  },
+  {
+    "Country": "Guam",
+    "Slug": "guam",
+    "ISO2": "GU"
+  },
+  {
+    "Country": "Svalbard and Jan Mayen Islands",
+    "Slug": "svalbard-and-jan-mayen-islands",
+    "ISO2": "SJ"
+  },
+  {
+    "Country": "Tajikistan",
+    "Slug": "tajikistan",
+    "ISO2": "TJ"
+  },
+  {
+    "Country": "Australia",
+    "Slug": "australia",
+    "ISO2": "AU",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/australia_icon_square.png"
+  },
+  {
+    "Country": "Croatia",
+    "Slug": "croatia",
+    "ISO2": "HR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/croatia_icon_square.png"
+  },
+  {
+    "Country": "Mayotte",
+    "Slug": "mayotte",
+    "ISO2": "YT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mayotte_icon_square.png"
+  },
+  {
+    "Country": "Solomon Islands",
+    "Slug": "solomon-islands",
+    "ISO2": "SB"
+  },
+  {
+    "Country": "Taiwan, Republic of China",
+    "Slug": "taiwan",
+    "ISO2": "TW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/taiwan_icon_square.png"
+  },
+  {
+    "Country": "Western Sahara",
+    "Slug": "western-sahara",
+    "ISO2": "EH"
+  },
+  {
+    "Country": "Barbados",
+    "Slug": "barbados",
+    "ISO2": "BB",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/barbados_icon_square.png"
+  },
+  {
+    "Country": "Russian Federation",
+    "Slug": "russia",
+    "ISO2": "RU",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/russia_icon_square.png"
+  },
+  {
+    "Country": "Singapore",
+    "Slug": "singapore",
+    "ISO2": "SG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/singapore_icon_square.png"
+  },
+  {
+    "Country": "Canada",
+    "Slug": "canada",
+    "ISO2": "CA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/canada_icon_square.png"
+  },
+  {
+    "Country": "Greenland",
+    "Slug": "greenland",
+    "ISO2": "GL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/greenland_icon_square.png"
+  },
+  {
+    "Country": "Holy See (Vatican City State)",
+    "Slug": "holy-see-vatican-city-state",
+    "ISO2": "VA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/vatican_city_icon_square.png"
+  },
+  {
+    "Country": "Namibia",
+    "Slug": "namibia",
+    "ISO2": "NA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/namibia_icon_square.png"
+  },
+  {
+    "Country": "Bermuda",
+    "Slug": "bermuda",
+    "ISO2": "BM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bermuda_icon_square.png"
+  },
+  {
+    "Country": "Congo (Kinshasa)",
+    "Slug": "congo-kinshasa",
+    "ISO2": "CD"
+  },
+  {
+    "Country": "Egypt",
+    "Slug": "egypt",
+    "ISO2": "EG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/egypt_icon_square.png"
+  },
+  {
+    "Country": "Saint-Martin (French part)",
+    "Slug": "saint-martin-french-part",
+    "ISO2": "MF"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Slug": "saudi-arabia",
+    "ISO2": "SA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/saudi_arabia_icon_square.png"
+  },
+  {
+    "Country": "Sweden",
+    "Slug": "sweden",
+    "ISO2": "SE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/sweden_icon_square.png"
+  },
+  {
+    "Country": "Botswana",
+    "Slug": "botswana",
+    "ISO2": "BW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/botswana_icon_square.png"
+  },
+  {
+    "Country": "Tanzania, United Republic of",
+    "Slug": "tanzania",
+    "ISO2": "TZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/tanzania_icon_square.png"
+  },
+  {
+    "Country": "US Minor Outlying Islands",
+    "Slug": "us-minor-outlying-islands",
+    "ISO2": "UM"
+  },
+  {
+    "Country": "Korea (North)",
+    "Slug": "korea-north",
+    "ISO2": "KP"
+  },
+  {
+    "Country": "Senegal",
+    "Slug": "senegal",
+    "ISO2": "SN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/senegal_icon_square.png"
+  },
+  {
+    "Country": "Bhutan",
+    "Slug": "bhutan",
+    "ISO2": "BT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bhutan_icon_square.png"
+  },
+  {
+    "Country": "Kenya",
+    "Slug": "kenya",
+    "ISO2": "KE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/kenya_icon_square.png"
+  },
+  {
+    "Country": "India",
+    "Slug": "india",
+    "ISO2": "IN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/india_icon_square.png"
+  },
+  {
+    "Country": "Niger",
+    "Slug": "niger",
+    "ISO2": "NE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/niger_icon_square.png"
+  },
+  {
+    "Country": "Madagascar",
+    "Slug": "madagascar",
+    "ISO2": "MG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/madagascar_icon_square.png"
+  },
+  {
+    "Country": "Mozambique",
+    "Slug": "mozambique",
+    "ISO2": "MZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mozambique_icon_square.png"
+  },
+  {
+    "Country": "Guadeloupe",
+    "Slug": "guadeloupe",
+    "ISO2": "GP",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/guadeloupe_icon_square.png"
+  },
+  {
+    "Country": "Oman",
+    "Slug": "oman",
+    "ISO2": "OM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/oman_icon_square.png"
+  },
+  {
+    "Country": "San Marino",
+    "Slug": "san-marino",
+    "ISO2": "SM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/san_marino_icon_square.png"
+  },
+  {
+    "Country": "Republic of Kosovo",
+    "Slug": "kosovo",
+    "ISO2": "XK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/kosovo_icon_square.png"
+  },
+  {
+    "Country": "El Salvador",
+    "Slug": "el-salvador",
+    "ISO2": "SV",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/el_salvador_icon_square.png"
+  },
+  {
+    "Country": "Monaco",
+    "Slug": "monaco",
+    "ISO2": "MC",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/monaco_icon_square.png"
+  },
+  {
+    "Country": "Denmark",
+    "Slug": "denmark",
+    "ISO2": "DK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/denmark_icon_square.png"
+  },
+  {
+    "Country": "Jersey",
+    "Slug": "jersey",
+    "ISO2": "JE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/jersey_icon_square.png"
+  },
+  {
+    "Country": "Pakistan",
+    "Slug": "pakistan",
+    "ISO2": "PK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/pakistan_icon_square.png"
+  },
+  {
+    "Country": "Afghanistan",
+    "Slug": "afghanistan",
+    "ISO2": "AF",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/afghanistan_icon_square.png"
+  },
+  {
+    "Country": "Christmas Island",
+    "Slug": "christmas-island",
+    "ISO2": "CX"
+  },
+  {
+    "Country": "Martinique",
+    "Slug": "martinique",
+    "ISO2": "MQ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/martinique_icon_square.png"
+  },
+  {
+    "Country": "Gabon",
+    "Slug": "gabon",
+    "ISO2": "GA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/gabon_icon_square.png"
+  },
+  {
+    "Country": "Guernsey",
+    "Slug": "guernsey",
+    "ISO2": "GG",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/guernsey_icon_square.png"
+  },
+  {
+    "Country": "Paraguay",
+    "Slug": "paraguay",
+    "ISO2": "PY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/paraguay_icon_square.png"
+  },
+  {
+    "Country": "Costa Rica",
+    "Slug": "costa-rica",
+    "ISO2": "CR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/costa_rica_icon_square.png"
+  },
+  {
+    "Country": "Mauritania",
+    "Slug": "mauritania",
+    "ISO2": "MR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mauritania_icon_square.png"
+  },
+  {
+    "Country": "Niue",
+    "Slug": "niue",
+    "ISO2": "NU"
+  },
+  {
+    "Country": "Sierra Leone",
+    "Slug": "sierra-leone",
+    "ISO2": "SL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/sierra_leone_icon_square.png"
+  },
+  {
+    "Country": "Gibraltar",
+    "Slug": "gibraltar",
+    "ISO2": "GI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/gibraltar_icon_square.png"
+  },
+  {
+    "Country": "Palestinian Territory",
+    "Slug": "palestine",
+    "ISO2": "PS",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/palestine_icon_square.png"
+  },
+  {
+    "Country": "Swaziland",
+    "Slug": "swaziland",
+    "ISO2": "SZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/swaziland_icon_square.png"
+  },
+  {
+    "Country": "Armenia",
+    "Slug": "armenia",
+    "ISO2": "AM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/armenia_icon_square.png"
+  },
+  {
+    "Country": "Cuba",
+    "Slug": "cuba",
+    "ISO2": "CU",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/cuba_icon_square.png"
+  },
+  {
+    "Country": "Bangladesh",
+    "Slug": "bangladesh",
+    "ISO2": "BD",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/bangladesh_icon_square.png"
+  },
+  {
+    "Country": "British Virgin Islands",
+    "Slug": "british-virgin-islands",
+    "ISO2": "VG"
+  },
+  {
+    "Country": "Albania",
+    "Slug": "albania",
+    "ISO2": "AL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/albania_icon_square.png"
+  },
+  {
+    "Country": "Puerto Rico",
+    "Slug": "puerto-rico",
+    "ISO2": "PR"
+  },
+  {
+    "Country": "Syrian Arab Republic (Syria)",
+    "Slug": "syria",
+    "ISO2": "SY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/syria_icon_square.png"
+  },
+  {
+    "Country": "Lesotho",
+    "Slug": "lesotho",
+    "ISO2": "LS"
+  },
+  {
+    "Country": "Samoa",
+    "Slug": "samoa",
+    "ISO2": "WS"
+  },
+  {
+    "Country": "French Guiana",
+    "Slug": "french-guiana",
+    "ISO2": "GF",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/french_guiana_icon_square.png"
+  },
+  {
+    "Country": "Anguilla",
+    "Slug": "anguilla",
+    "ISO2": "AI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/anguilla_icon_square.png"
+  },
+  {
+    "Country": "Luxembourg",
+    "Slug": "luxembourg",
+    "ISO2": "LU",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/luxembourg_icon_square.png"
+  },
+  {
+    "Country": "Colombia",
+    "Slug": "colombia",
+    "ISO2": "CO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/colombia_icon_square.png"
+  },
+  {
+    "Country": "Ghana",
+    "Slug": "ghana",
+    "ISO2": "GH",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/ghana_icon_square.png"
+  },
+  {
+    "Country": "Philippines",
+    "Slug": "philippines",
+    "ISO2": "PH",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/philippines_icon_square.png"
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "Slug": "saint-kitts-and-nevis",
+    "ISO2": "KN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/st_kitts_and_nevis_icon_square.png"
+  },
+  {
+    "Country": "United Kingdom",
+    "Slug": "united-kingdom",
+    "ISO2": "GB",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/united_kingdom_icon_square.png"
+  },
+  {
+    "Country": "Virgin Islands, US",
+    "Slug": "virgin-islands",
+    "ISO2": "VI"
+  },
+  {
+    "Country": "Aruba",
+    "Slug": "aruba",
+    "ISO2": "AW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/aruba_icon_square.png"
+  },
+  {
+    "Country": "Honduras",
+    "Slug": "honduras",
+    "ISO2": "HN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/honduras_icon_square.png"
+  },
+  {
+    "Country": "Lao PDR",
+    "Slug": "lao-pdr",
+    "ISO2": "LA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/laos_icon_square.png"
+  },
+  {
+    "Country": "Nauru",
+    "Slug": "nauru",
+    "ISO2": "NR"
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "Slug": "brunei",
+    "ISO2": "BN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/brunei_icon_square.png"
+  },
+  {
+    "Country": "Djibouti",
+    "Slug": "djibouti",
+    "ISO2": "DJ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/djibouti_icon_square.png"
+  },
+  {
+    "Country": "Montserrat",
+    "Slug": "montserrat",
+    "ISO2": "MS",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/montserrat_icon_square.png"
+  },
+  {
+    "Country": "Slovenia",
+    "Slug": "slovenia",
+    "ISO2": "SI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/slovenia_icon_square.png"
+  },
+  {
+    "Country": "Jamaica",
+    "Slug": "jamaica",
+    "ISO2": "JM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/jamaica_icon_square.png"
+  },
+  {
+    "Country": "Maldives",
+    "Slug": "maldives",
+    "ISO2": "MV",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/maldives_icon_square.png"
+  },
+  {
+    "Country": "Switzerland",
+    "Slug": "switzerland",
+    "ISO2": "CH",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/switzerland_icon_square.png"
+  },
+  {
+    "Country": "Zambia",
+    "Slug": "zambia",
+    "ISO2": "ZM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/zambia_icon_square.png"
+  },
+  {
+    "Country": "Réunion",
+    "Slug": "réunion",
+    "ISO2": "RE"
+  },
+  {
+    "Country": "South Georgia and the South Sandwich Islands",
+    "Slug": "south-georgia-and-the-south-sandwich-islands",
+    "ISO2": "GS"
+  },
+  {
+    "Country": "United States of America",
+    "Slug": "united-states",
+    "ISO2": "US",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/united_states_icon_square.png"
+  },
+  {
+    "Country": "Mauritius",
+    "Slug": "mauritius",
+    "ISO2": "MU",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/mauritius_icon_square.png"
+  },
+  {
+    "Country": "Pitcairn",
+    "Slug": "pitcairn",
+    "ISO2": "PN"
+  },
+  {
+    "Country": "Faroe Islands",
+    "Slug": "faroe-islands",
+    "ISO2": "FO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/faroe_islands_icon_square.png"
+  },
+  {
+    "Country": "France",
+    "Slug": "france",
+    "ISO2": "FR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/france_icon_square.png"
+  },
+  {
+    "Country": "Morocco",
+    "Slug": "morocco",
+    "ISO2": "MA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/morocco_icon_square.png"
+  },
+  {
+    "Country": "Algeria",
+    "Slug": "algeria",
+    "ISO2": "DZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/algeria_icon_square.png"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Slug": "equatorial-guinea",
+    "ISO2": "GQ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/equatorial_guinea_icon_square.png"
+  },
+  {
+    "Country": "Estonia",
+    "Slug": "estonia",
+    "ISO2": "EE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/estonia_icon_square.png"
+  },
+  {
+    "Country": "Isle of Man",
+    "Slug": "isle-of-man",
+    "ISO2": "IM"
+  },
+  {
+    "Country": "Saint Pierre and Miquelon",
+    "Slug": "saint-pierre-and-miquelon",
+    "ISO2": "PM"
+  },
+  {
+    "Country": "Saint Vincent and Grenadines",
+    "Slug": "saint-vincent-and-the-grenadines",
+    "ISO2": "VC",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/st_vincent_and_grenadines_icon_square.png"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "Slug": "trinidad-and-tobago",
+    "ISO2": "TT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/trinidad_and_tobago_icon_square.png"
+  },
+  {
+    "Country": "Ukraine",
+    "Slug": "ukraine",
+    "ISO2": "UA",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/ukraine_icon_square.png"
+  },
+  {
+    "Country": "Argentina",
+    "Slug": "argentina",
+    "ISO2": "AR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/argentina_icon_square.png"
+  },
+  {
+    "Country": "Belize",
+    "Slug": "belize",
+    "ISO2": "BZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/belize_icon_square.png"
+  },
+  {
+    "Country": "Italy",
+    "Slug": "italy",
+    "ISO2": "IT",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/italy_icon_square.png"
+  },
+  {
+    "Country": "Lebanon",
+    "Slug": "lebanon",
+    "ISO2": "LB",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/lebanon_icon_square.png"
+  },
+  {
+    "Country": "Dominica",
+    "Slug": "dominica",
+    "ISO2": "DM",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/dominica_icon_square.png"
+  },
+  {
+    "Country": "Georgia",
+    "Slug": "georgia",
+    "ISO2": "GE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/georgia_icon_square.png"
+  },
+  {
+    "Country": "Liechtenstein",
+    "Slug": "liechtenstein",
+    "ISO2": "LI",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/liechtenstein_icon_square.png"
+  },
+  {
+    "Country": "Thailand",
+    "Slug": "thailand",
+    "ISO2": "TH",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/thailand_icon_square.png"
+  },
+  {
+    "Country": "Tonga",
+    "Slug": "tonga",
+    "ISO2": "TO"
+  },
+  {
+    "Country": "Chad",
+    "Slug": "chad",
+    "ISO2": "TD",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/chad_icon_square.png"
+  },
+  {
+    "Country": "Libya",
+    "Slug": "libya",
+    "ISO2": "LY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/libya_icon_square.png"
+  },
+  {
+    "Country": "New Zealand",
+    "Slug": "new-zealand",
+    "ISO2": "NZ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/new_zealand_icon_square.png"
+  },
+  {
+    "Country": "South Sudan",
+    "Slug": "south-sudan",
+    "ISO2": "SS",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/south_sudan_icon_square.png"
+  },
+  {
+    "Country": "Turks and Caicos Islands",
+    "Slug": "turks-and-caicos-islands",
+    "ISO2": "TC"
+  },
+  {
+    "Country": "Tuvalu",
+    "Slug": "tuvalu",
+    "ISO2": "TV"
+  },
+  {
+    "Country": "Grenada",
+    "Slug": "grenada",
+    "ISO2": "GD",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/grenada_icon_square.png"
+  },
+  {
+    "Country": "China",
+    "Slug": "china",
+    "ISO2": "CN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/china_icon_square.png"
+  },
+  {
+    "Country": "Iraq",
+    "Slug": "iraq",
+    "ISO2": "IQ",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/iraq_icon_square.png"
+  },
+  {
+    "Country": "Macedonia, Republic of",
+    "Slug": "macedonia",
+    "ISO2": "MK"
+  },
+  {
+    "Country": "Malaysia",
+    "Slug": "malaysia",
+    "ISO2": "MY",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/malaysia_icon_square.png"
+  },
+  {
+    "Country": "Poland",
+    "Slug": "poland",
+    "ISO2": "PL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/poland_icon_square.png"
+  },
+  {
+    "Country": "Somalia",
+    "Slug": "somalia",
+    "ISO2": "SO",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/somalia_icon_square.png"
+  },
+  {
+    "Country": "Brazil",
+    "Slug": "brazil",
+    "ISO2": "BR",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/brazil_icon_square.png"
+  },
+  {
+    "Country": "Hong Kong, SAR China",
+    "Slug": "hong-kong-sar-china",
+    "ISO2": "HK",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/hong_kong_icon_square.png"
+  },
+  {
+    "Country": "Netherlands",
+    "Slug": "netherlands",
+    "ISO2": "NL",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/netherlands_icon_square.png"
+  },
+  {
+    "Country": "Seychelles",
+    "Slug": "seychelles",
+    "ISO2": "SC",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/seychelles_icon_square.png"
+  },
+  {
+    "Country": "Vanuatu",
+    "Slug": "vanuatu",
+    "ISO2": "VU"
+  },
+  {
+    "Country": "Belgium",
+    "Slug": "belgium",
+    "ISO2": "BE",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/belgium_icon_square.png"
+  },
+  {
+    "Country": "Comoros",
+    "Slug": "comoros",
+    "ISO2": "KM"
+  },
+  {
+    "Country": "Indonesia",
+    "Slug": "indonesia",
+    "ISO2": "ID",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/indonesia_icon_square.png"
+  },
+  {
+    "Country": "Marshall Islands",
+    "Slug": "marshall-islands",
+    "ISO2": "MH"
+  },
+  {
+    "Country": "Tunisia",
+    "Slug": "tunisia",
+    "ISO2": "TN",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/tunisia_icon_square.png"
+  },
+  {
+    "Country": "French Polynesia",
+    "Slug": "french-polynesia",
+    "ISO2": "PF",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/french_polynesia_icon_square.png"
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "Slug": "guinea-bissau",
+    "ISO2": "GW",
+    "flag": "https://www.gstatic.com/onebox/sports/logos/flags/guinea_bissau_icon_square.png"
+  }
+]
